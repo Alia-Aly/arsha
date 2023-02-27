@@ -1,0 +1,907 @@
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+   /*  start header styling  */
+header{
+    background-color: #37517e;
+    color: white;
+}                      
+                    /* start top styling */
+/* .top{
+    height: 32px;
+    overflow-y: hidden;
+    width: calc(100%);
+    background-color: #023b6d;
+    display: flex;
+}
+.top ul{
+    padding: 0px;
+    list-style: none;
+}
+.navbar-toggler-icon{
+    display: none;
+}
+.icons{
+    width:20% ;
+    margin: 0px 5px;
+    display: flex;
+    font-size: 20px;
+}
+.con-one{
+    width:15%;
+    height: auto;
+    padding: 0px;
+    margin-left: 10px;
+}
+.logo{
+    width: 95%;
+}
+.fa-display{
+    color: #fff;
+    size: 5px;
+    margin-left: 20px;
+    margin: 0px 5px;
+}
+.fa-mobile-button{
+    color: #b0a2a2;
+    margin-left: 10px;
+}
+.fa-mobile-button:hover{
+    color: #fff;
+}
+.btn-outline-success{
+    background-color: inherit;
+    border-radius: 30px;
+    border: 1px solid #47b2e4;
+    margin: 0px 30px;
+}
+.btn-outline-success:hover{
+    background-color: #47b2e4;
+    border: 1px solid #47b2e4;
+}
+.navbar-brand{
+    font-size: 30px;
+}
+.name{
+    width: 50%;
+    text-align: center;
+}
+.name a{
+    color: #ffffffa9 ;
+    margin: 0px 5px;
+}
+.name a:hover{
+    color: #fff;
+}
+.download{
+    width: 20%;
+    padding-left: 40px;
+    float: right;
+}
+.download a{
+    color: #ffffff96;
+}
+.download a:hover{
+    color: #fff;
+}
+.download span{
+    background-color: #47b2e4;
+    padding: 20px 10px 25px 10px;
+    margin-left: 10px;
+    text-align: center;
+}
+.download span:hover{
+    background-color: #00a6eb;
+}
+.download span a{
+    color: #fff !important;
+}
+.cl{
+    clear: both;
+} */
+/*.......... end top styling ......... */              
+ /*..........start navbar styling.............. */
+.navbar{
+    width: 100%;
+    background-color: #37517e!important;
+    position: fixed;
+    z-index: 1000;
+}
+.navbar li a{
+    font-weight: 400;
+    margin: 0px 10px;
+}
+.navbar li a:hover{
+    color: #47b2e4 !important;
+}
+/*............... end navbar styling.........*/
+/*............. start container styling ...........*/
+.con-two{
+    width: 90%;
+    height: 500px;
+    margin: auto;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(1,1fr);
+}
+.left{
+    grid-column: 1/2;
+    display: grid;
+    grid-template-rows: repeat(10,1fr);
+}
+.left h1{
+    grid-row: 3/5;
+    font-size: 55px;
+    margin: 0px;
+    font-weight: bolder;
+}
+.discrib{
+    grid-row: 5/7;
+    font-size: 25px;
+    font-family: serif;
+    color: rgb(255 255 255 / 60%);
+}
+.con-three{
+    grid-row: 7/9;
+}
+.con-three .btn-outline-success{
+    padding: 10px 30px;
+}
+.con-three a{
+    color: #fff ;
+}
+.con-three span{
+    color: #fff !important;
+}
+.fa-circle-play{
+    margin: 0px 5px;
+    font-size: 25px;
+}
+.con-three a:hover{
+    color: #47b2e4;
+}
+.right{
+    margin-top: 40px;
+}
+.header-img{
+    width:90%;
+    margin: auto;
+    animation: head 2s linear 1ms infinite;
+}
+@keyframes head{
+    0%{
+        margin-top: 10px;
+    }
+    50%{
+        margin-top: 0px;
+    }
+    100%{
+        margin-top: 10px;
+    }
+}
+/*.............  end header styling .............*/
+/*............start first section styling.........*/
+.first{
+    width: 100%;
+    margin:auto;
+    background-color: aliceblue;
+    padding: 10px;
+    height:100px ;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.clients{
+    width: calc((80% - 30px) / 6) ;
+    text-align: center;
+    margin-top: 30px;
+}
+.client{
+    width: 50%;
+    transition: 1s;
+    filter: grayscale(100%);
+}
+.client:hover{
+    width: 60%;
+    filter: grayscale(0%);
+}
+/*.............end first section styling............ */
+/*........... start second section styling ...........*/
+.second{
+    width: 90%;
+    margin:50px auto;
+}
+.h-2{
+    position: relative;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    color: #37517e;
+}
+.about-us{
+    padding: 15px 0px;
+}
+.about-us::before{
+    content: "";
+    width: 120px;
+    height: 0px;
+    position: absolute;
+    bottom: 0px;
+    left: calc(50% - 60px);
+    border-width: 1px;
+    border-style: solid;
+    border-color: transparent  transparent  rgb(200, 194, 194) transparent;
+}
+.about-us::after{
+    content: "";
+    width: 50px;
+    height: 0px;
+    position: absolute;
+    bottom: 0px;
+    left: calc(50% - 25px);
+    border-width: 3px;
+    border-style: solid;
+    border-color: transparent  transparent #00a6eb transparent;
+    display: block;
+}
+.con-four{
+    margin: 20px 0px;
+    display: flex;
+}
+.left-2{
+    width: 50%;
+}
+.left-2 p{
+    margin: 20px 5px;
+}
+.left-2 li{
+    line-height: 30px;
+    list-style: none;
+}
+.fa-check-double{
+    color: #00a6eb;
+    margin-right: 10px;
+}
+.right-2{
+    width: 50%;
+}
+.right-2 p{
+    margin: 20px 5px;
+}
+.btn-2{
+    width: 150px;
+    height: 40px;
+    border: 2px solid #00a6eb;
+    border-radius: 5px;
+    background-color: inherit;
+    color: #00a6eb;
+}
+.btn-2:hover{
+    background-color: #00a6eb;
+    color: #fff;
+}
+/*.............. end second section styling......... */
+/*.............. start third section styling........ */
+.third{
+    width: 100%;
+    background-color: aliceblue;
+    margin:50px auto;
+    display: flex;
+}
+.left-3{
+    width: 45%;
+    margin: auto;
+}
+.card h3,
+.con h2{
+    color: #023b6d;
+}
+.right-3{
+    width: 50%;
+    margin: auto;
+}
+.right-3 img{
+    width: 100%;
+}
+/*................ end third section styling............ */
+/*.............. start fourth section styling ...........*/
+ .fourth{
+    padding: 40px 30px;
+    display: flex;
+ }               
+.left-4{
+    width: 50%;
+}
+.left-4 img{
+    width: 90%;
+}
+.right-4{
+    width: 45%;
+    margin: auto;
+}
+/*............. end fourth section styling............... */
+/*............ start fifth section styling ...............*/
+.fifth{
+    background-color: aliceblue;
+    width: 100%;
+    text-align: center;
+}
+.con-five{
+    width: calc(100% - 160px);
+    margin: auto;
+}
+.cards{
+    display: flex;
+    padding: 40px 0px;
+}
+.card{
+    width: 25%;
+    height: 220px;
+    background-color: #fff;
+    text-align: start;
+    padding: 20px 0px 20px 30px;
+    margin: 10px;
+    border-radius: 0px;
+    border: none;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.071);
+}
+.card i{
+    color: #00a6eb;
+    font-size: 30px;
+    margin: 10px 80% 10px 0px;
+}
+/*................ end fifth section styling ...........*/
+/* ..............start sixth section styling ............*/
+.sixth{
+        background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url("images/5.jpg") fixed center center;
+        background-size: cover;
+        padding: 80px;
+        color: #fff;
+        display: flex;
+}
+.left-6{
+    width: 70%;
+}
+.right-6{
+    width: 30%;
+    margin: auto;
+    padding-left: 5%;
+}
+.btn-3{
+    width: 200px ;
+    margin: auto;
+    height: 50px;
+    border-radius: 50px;
+    border: 2px solid #fff;
+    background-color: inherit;
+    color: #fff;
+}
+.btn-3:hover{
+    background-color: #00a6eb;
+    border-color: #00a6eb;
+}
+/*........... end sixth section styling .............*/
+/*......... start seventh section styling.......... */
+.seventh{
+    text-align: center;
+    width: 85%;
+    margin:50px auto;
+}
+.seventh ul{
+    padding-left: 0%;
+    margin: auto;
+    display: flex;
+    width: 25%;
+    justify-content: space-around;
+}
+.seventh a{
+    color: rgb(95, 92, 92);
+    font-size: 18px;
+    padding: 0px 10px 5px ;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+.seventh a:hover{
+    color: #fff;
+    background-color: #00a6eb;
+}
+.portofilo{
+    width: 100%;
+    margin: auto;
+    padding: 30px 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.left-7,.right-7,.center{
+    width:calc(100% / 3);
+}
+.img-1,.img-2,.img-3,.img-4,.img-5,.img-6,.img-7,.img-8,.img-9{
+    width: calc((100% - 20px));
+    margin: 20px 10px;
+    overflow: hidden;
+}
+.img-1{
+    height: 343px;
+}
+.img-3{
+    height: 190px;
+}
+.img-2,.img-4,.img-7,.img-8,.img-9{
+    height: 224px;
+}
+.img-5,.img-6{
+    height: 505px;
+}
+.portofilo img{
+    width: 100%;
+    transition: 1s;
+}
+.portofilo img:hover{
+    transform: scale(1.2);
+}
+/*......... end seventh section styling.......... */
+/*......... start eightth section styling.......... */
+.eightth{
+    text-align: center;
+    width: 85%;
+    margin:50px auto;
+}
+.team{
+    display: flex;
+    flex-wrap: wrap;
+}
+.eightth .card{
+    width: calc(50% - 20px);
+}
+.card-title{
+    color: #023b6d;
+}
+.eightth .card img{
+    width: 162px;
+    height: 162px;
+    border-radius: 50% !important;
+}
+.social{
+    display: flex;
+}
+.social i{
+    font-size: 20px;
+    color:  #023b6d;
+    margin: 0px 10px;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+.social i:hover{
+    color: #00a6eb;
+}
+/*......... end eightth section styling.......... */
+/*......... start ninth section styling.......... */
+.ninth{
+    text-align: center;
+    width: 85%;
+    margin:50px auto;
+}
+.con-nine{
+    display: flex;
+    width: 95%;
+    margin: auto;
+}
+.price{
+    width: calc((100% - 90px) / 3);
+    text-align: start;
+    margin: 15px;
+    padding:40px 0px 0px 40px;
+    box-shadow: 0px 0px 10px 1px #a0c4d3;
+    border-radius: 10px;
+}
+.price h4,.price h2{
+    color: #023b6d;
+}
+.price h2{
+    font-size: 50px;
+}
+.price h5{
+    color: #00a6eb;
+}
+.price ul{
+    padding-left:0px ;
+    line-height: 40px;
+    color: #b0a2a2;
+}
+.price i{
+    color: green;
+    margin-right: 10px;
+}
+.price .fa-xmark{
+    color: #b0a2a2;
+}
+.btn-4{
+    width: 150px ;
+    margin: auto;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid #00a6eb;
+    background-color: inherit;
+    color: #00a6eb;
+    margin-bottom: 20px;
+}
+.btn-4:hover{
+    background-color: #00a6eb;
+    color: #fff;
+}
+/*......... end ninth section styling.......... */
+/*......... start tenth section styling.......... */
+.tenth{
+    text-align: center;
+    width: 100%;
+    margin:50px 0px;
+    padding: 5px 0px 50px;
+    background-color: aliceblue;
+}
+.con-ten{
+    width: 85%;
+    margin:50px auto;
+}
+.accordion{
+    width: 80%;
+    margin: auto;
+}
+/*......... end tenth section styling.......... */
+/*......... start eleventh section styling.......... */
+.eleventh{
+    text-align: center;
+    width: 85%;
+    margin:50px auto;
+}
+.last-con{
+    display: flex;
+    margin: 50px auto;
+}
+.last-con h2{
+    color: #023b6d;
+}
+.con-11{
+    text-align: start;
+}
+.eleventh i{
+    font-size: 30px;
+    color: #00a6eb;
+    margin: 25px;
+}
+.last-left{
+    width: 40%;
+    margin: auto;
+    padding: 20px 0px;
+    box-shadow: 0px 0px 20px 5px #37517e5d;
+    border-bottom: 5px solid #00a6eb;
+    border-top: 5px solid #00a6eb;
+
+}
+.last-right{
+    width: 55%;
+    margin: auto;
+    padding: 70px 0px;
+    box-shadow: 0px 0px 20px 5px #37517e5d;
+    border-bottom: 5px solid #00a6eb;
+    border-top: 5px solid #00a6eb;
+}
+.location-i,.email-i,.call-i{
+    display: flex;
+}
+.iframe{
+    width: 90%;
+    margin: auto;
+    height: 300px;
+}
+#gmap_canvas{
+    width: 100%;
+    height:250px;
+}
+#name,#email,#subject{
+    width: 100%;
+    height: 40px;
+}
+.name-con,.email-con{
+    width: 45%;
+    margin: auto;
+}
+.input{
+    text-align: start;
+}
+.input label{
+    display: block;
+    margin: 5px;
+}
+.last-right form{
+    display: flex;
+    flex-wrap: wrap;
+}
+.subject-con,.message-con{
+    width: 95%;
+    margin: auto;
+}
+#message{
+    width: 100%;
+    height: 200px;
+}
+#message-btn{
+    width: 150px;
+    margin:25px auto 10px;
+    height: 40px;
+    color: #fff;
+    border: 1px solid #00a6eb;
+    border-radius: 50px;
+    background-color: #00a6eb;
+}
+#message-btn:hover{
+    background-color: #0293d1;
+}
+/*......... end eleventh section styling.......... */
+/*......... start twelvth section styling.......... */
+.twelvth{
+    text-align: center;
+    width: 100%;
+    margin:50px 0px;
+    background-color: aliceblue;
+    padding: 40px 0px;
+}
+.twelvth h2{
+    color: #023b6d;
+}
+.con-12{
+    width: 85%;
+    margin: auto;
+}
+.sibscribe{
+    width: 45%;
+    margin:25px auto;
+    height: 45px;
+    background-color: #fff;
+    border-radius: 50px;
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.13);
+    position: relative;
+}
+#sibscribe{
+    width: 80%;
+    margin: 0px 10% 1% 0px;
+    height: 30px;
+    border-style: none;
+    outline: none;
+}
+.last-btn{
+    width: 20%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    border-style: none;
+    background-color: #00a6eb;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 18px;
+}
+.last-btn:hover{
+    background-color: #0293d1;
+}
+/*......... end twelvth section styling.......... */
+/*......... start footer styling.......... */
+footer{
+    display: flex;
+    justify-content: space-around;
+}
+.one ul{
+    padding: 0%;
+}
+.one h2,
+.one h5{
+    color: #023b6d;
+}
+.one li{
+    line-height: 40px;
+    color: rgb(86, 85, 85);
+}
+.one li i{
+    font-size: 13px;
+    margin-right: 5px;
+    color: #00a6eb;
+}
+.one a{
+    color: rgb(86, 85, 85);
+    transition: 0.5s;
+}
+.one a:hover{
+    color: #00a6eb;
+}
+.connect{
+    width: 25%;
+    color: rgb(86, 85, 85);
+}
+.connect h5{
+    color: #023b6d;
+}
+.connect i{
+    color: #00a6eb;
+    font-size: 25px;
+    margin: 0px 5px;
+}
+.connect i:hover{
+    color: #0293d1;
+}
+/*......... end footer styling.......... */
+/*......... start media styling.......... */
+@media(min-width:150px) and (max-width:1000px){
+    .con-one,
+    .icons{
+        display: none;
+    }
+    .name{
+        text-align: left;
+    }
+    .download{
+        width:60%;
+        padding: 0px;
+        text-align: right;
+    }
+    .download span{
+        padding-right: 0px;
+    }
+    .con-two{
+        height: auto;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(2,auto);
+    }
+    .con-three .btn-outline-success{
+        padding: 10px 10px;
+    }
+    .right{
+        height: auto;
+        grid-row: 1/2;
+    }
+    .header-img{
+        animation: none;
+    }
+    .left{
+        grid-row: 2/3;
+        grid-template-rows: repeat(3,1fr);
+        text-align: center;
+    }
+    .left h1{
+        margin-top: 40px;
+        font-size: 25px;
+        grid-row: 1/2;
+    }
+    .discrib{
+        font-size: 20px;
+        grid-row: 2/3;
+    }
+    .first{
+        flex-wrap: wrap;
+        height: 400px;
+    }
+    .clients{
+        width: calc((80% - 60px) / 2) ;
+        margin: 30px;
+    }
+    .client{
+        width: 70%;
+    }
+    .client:hover{
+        width: 80%;
+    }
+    .con-four{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .left-2{
+        width: 100%;
+    }
+    .left-2 ul{
+        padding: 0px;
+    }
+    .right-2{
+        width: 100%;
+    }
+    .third{
+        flex-wrap: wrap-reverse;
+    }
+    .left-3{
+        width: 95%;
+        margin: auto;
+    }
+    .right-3{
+        width: 90%;
+    }
+    .fourth{
+        flex-wrap: wrap;
+    }
+    .left-4{
+        width: 100%;
+    }
+    .left-4 img{
+        width: 100%;
+    }
+    .right-4{
+        width: 95%;
+    }
+    .con-five{
+        width: 100%;
+    }
+    .cards{
+        flex-wrap: wrap;
+    }
+    .card{
+        width: 90%;
+        margin:10px auto;
+        text-align: start;
+    }
+    .sixth{
+        flex-direction: column;
+        padding: 80px 0px;
+    }
+    .left-6,
+    .right-6{
+        width: 80%;
+        text-align: center;
+        margin: auto;
+    }
+    .left-7,.right-7,.center{
+        width: 95%;
+        margin: auto;
+    }
+    .eightth{
+        width: 100%;
+    }
+    .eightth .card{
+    width: calc(100% - 20px);
+    position: relative;
+    }
+    .row{
+        width: 100%;
+        display: flex;
+    }
+    .eightth .card img{
+    width: 25%;
+    height: 100%;
+    }
+    .card-body{
+        width: 70%;
+        top: 10px;
+        position: absolute;
+        left: 28%;
+    }
+    .price{
+        width: 95%;
+        margin: 20px auto;
+    }
+    .con-nine{
+        flex-wrap: wrap;
+    }
+    .last-con{
+        flex-wrap: wrap;
+    }
+    .last-left,.last-right{
+        width: 95%;
+        margin:10px auto;
+    }
+    .name-con,.email-con{
+        width: 95%;
+        margin: auto;
+    }
+    .sibscribe{
+        width: 95%;
+        margin: auto;
+    }
+    footer{
+        flex-wrap: wrap;
+    }
+    .one{
+        width: 90%;
+    }
+    .connect{
+        width: 90%;
+    }
+}
